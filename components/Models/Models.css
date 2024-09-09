@@ -1,0 +1,55 @@
+.models-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100vw;
+  padding: 40px 80px;
+}
+
+.models-text {
+  font-size: 50px;
+  font-weight: 600;
+  width: 40%;
+  margin-bottom: 80px;
+}
+
+.models-image-container {
+  position: relative;
+}
+
+.overlay-over-image {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+
+.models-image {
+  border-radius: 20px;
+  object-fit: cover;
+  width: 90vw;
+  height: 580px;
+}
+
+.div-overlay-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.overlay-text {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.overlay-button {
+  background-color: white;
+  color: black;
+  font-size: 17px;
+  width: 160px;
+  font-weight: 400;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+}

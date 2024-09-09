@@ -1,0 +1,85 @@
+.lineup-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100vw;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+.lineup-texts-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.lineup-left-text {
+  font-size: 60px;
+  color: #1d1d1d;
+}
+
+.lineup-link {
+  display: inline;
+  font-size: 16px;
+  color: #0066cc;
+}
+
+.lineup-link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.lineup-carousel {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.lineup-list {
+  display: flex;
+  flex-direction: row;
+  margin-left: 80px;
+  width: 100vw;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  transition: 0.5s ease;
+}
+
+.lineup-list::-webkit-scrollbar {
+  display: none;
+}
+
+.lineup-subtext-list {
+  position: absolute;
+  top: 60px;
+  left: 25px;
+}
+
+.carousel-controller {
+  display: flex;
+  flex-direction: row;
+  margin-right: 80px;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+.carousel-controller-button-group {
+  display: flex;
+  width: 200px;
+  justify-content: space-evenly;
+}
+
+.carousel-controller-buttons {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #e2e2e5;
+}

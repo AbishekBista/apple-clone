@@ -1,0 +1,81 @@
+.features-left-text {
+  font-size: 60px;
+  margin-left: 80px;
+  margin-bottom: 80px;
+  color: #1d1d1d;
+}
+
+.features-carousel {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.features-section {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.features-list {
+  display: flex;
+  flex-direction: row;
+  margin-left: 70px;
+  width: 100vw;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  transition: 0.5s ease;
+  padding: 10px;
+}
+
+.features-list::-webkit-scrollbar {
+  display: none;
+}
+
+.features-show-more {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  height: 40px;
+  width: 40px;
+  background-color: #333336;
+  color: #d6d6d7;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.features-subtext-list {
+  position: absolute;
+  top: 60px;
+  left: 25px;
+}
+
+.carousel-controller {
+  display: flex;
+  flex-direction: row;
+  margin-right: 80px;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+.carousel-controller-button-group {
+  display: flex;
+  width: 200px;
+  justify-content: space-evenly;
+}
+
+.carousel-controller-buttons {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #e2e2e5;
+}

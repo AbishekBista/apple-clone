@@ -1,0 +1,20 @@
+.cta-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 30px;
+  background-color: #f5f5f7;
+}
+
+.cta-text {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 11px;
+  margin-right: 5px;
+}
+
+.cta-link {
+  display: inline-block;
+  font-size: 11px;
+  color: #2f66cf;
+}

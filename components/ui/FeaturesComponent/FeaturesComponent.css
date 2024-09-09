@@ -1,0 +1,35 @@
+.features-card {
+  position: relative;
+  min-width: 372px;
+  margin-right: 20px;
+}
+
+.features-card:hover {
+  scale: 1.02;
+  transition: 0.25s ease-in;
+}
+
+.features-img {
+  border-radius: 30px;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  min-width: 372px;
+  min-height: 712px;
+  transition: 0.5s ease;
+}
+
+.features-text {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.features-subtext {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 30px;
+  width: 300px;
+}
