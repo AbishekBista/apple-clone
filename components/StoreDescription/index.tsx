@@ -43,7 +43,7 @@ const StoreDescription = () => {
       <div className="storedesc-carousel">
         <div className="storedesc-list" ref={scrollRef}>
           {storeDescriptionList.map((item) => (
-            <StoreDescriptionComponent />
+            <StoreDescriptionComponent key={item}/>
           ))}
         </div>
       </div>
