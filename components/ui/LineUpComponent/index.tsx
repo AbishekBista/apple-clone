@@ -77,7 +77,7 @@ const LineUpComponent = ({
         <div className="details">
           <img src={cameraImg} className="details-img" />
           {cameraText.map((item) => (
-            <span className="details-text">{item}</span>
+            <span className="details-text" key={item}>{item}</span>
           ))}
         </div>
 
