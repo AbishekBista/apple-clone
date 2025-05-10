@@ -28,6 +28,7 @@ const FeaturesComponent = ({
           console.log(index);
           return (
             <div
+              key={item}
               className="features-subtext"
               style={{ color: index == 7 ? "black" : "white" }}
             >
