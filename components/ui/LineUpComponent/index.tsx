@@ -37,7 +37,7 @@ const LineUpComponent = ({
         </div>
         <div className="color-palette">
           {colors.map((color) => (
-            <div className="color" style={{ backgroundColor: color }} />
+            <div className="color" style={{ backgroundColor: color }} key={color}/>
           ))}
         </div>
         <h2 className="phone-name">{name}</h2>
