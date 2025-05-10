@@ -44,6 +44,7 @@ const LineUp = () => {
         <div className="lineup-list" ref={scrollRef}>
           {lineUpList.map((item) => (
             <LineUpComponent
+              key={item}
               phoneImg={item.phoneImg}
               colors={item.colors}
               name={item.name}
